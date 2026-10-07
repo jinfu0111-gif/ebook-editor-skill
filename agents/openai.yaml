@@ -1,0 +1,4 @@
+interface:
+  display_name: "电子书编辑器"
+  short_description: "创建和修订 EPUB，支持扫描 PDF OCR、脚注校订与阅读器兼容性检查"
+  default_prompt: "使用 $ebook-editor 创建或修订这本电子书，保留原文件，检查目录、脚注和阅读器兼容性，并输出新版本。"
