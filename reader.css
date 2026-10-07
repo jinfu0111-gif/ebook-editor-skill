@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* Adapt to the book. Body font, colors, line height and side margins inherit reader settings. */
+body { margin: 0; }
+h1, h2, h3 { text-align: start; break-after: avoid; page-break-after: avoid; }
+p { margin: 0 0 .6em; text-indent: 2em; }
+blockquote { margin: 1em 5%; }
+blockquote p { text-indent: 0; }
+.noteref { font-size: .75em; vertical-align: super; text-decoration: none; }
+.footnotes { margin-top: 2em; }
+.footnotes p, .no-indent { text-indent: 0; }
+img { max-width: 100%; height: auto; }
+figure { margin: 1em 0; }
+figcaption { font-size: .9em; text-indent: 0; }
